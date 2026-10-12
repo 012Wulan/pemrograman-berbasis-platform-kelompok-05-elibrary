@@ -26,10 +26,9 @@ Elibrary merupakan aplikasi perpustakaan digital yang dikembangkan untuk memperm
 - Laporan dan statistik perpustakaan.
 
 ## Peran Pengguna
-
-1.**Anggota**: mencari buku dan memantau peminjaman.
-2.**Pustakawan**: mengelola katalog serta transaksi sirkulasi.
-3.**Pimpinan**: memantau laporan dan statistik perpustakaan.
+1. **Anggota:** mencari buku dan memantau peminjaman.
+2. **Pustakawan:** mengelola katalog serta transaksi sirkulasi.
+3. **Pimpinan:** memantau laporan dan statistik perpustakaan.
 
 ## Struktur Proyek
 
