@@ -1,5 +1,9 @@
-# Elibrary — Sistem Perpustakaan Digital
+# Ide Project Akhir
 
+### Judul: Kelompok-01-SILAB-Elibrary
+Kelompok kami memilih Elibrary (Perpustakaan Digital) sebagai project akhir yang akan dikembangkan sampai UAS. Aplikasi ini dirancang untuk membantu anggota mencari koleksi buku dan memantau ketersediaannya, membantu pustakawan mengelola katalog serta transaksi peminjaman, dan menyediakan statistik bagi pimpinan. Pengembangan akan dimulai dari fitur utama yang dibutuhkan pengguna, dengan pengumpulan informasi melalui wawancara pustakawan dan penyusunan data contoh katalog buku.
+
+## Elibrary — Sistem Perpustakaan Digital
 Elibrary merupakan aplikasi perpustakaan digital yang dikembangkan untuk mempermudah anggota mencari koleksi buku, memantau ketersediaan buku, dan mengelola proses peminjaman serta pengembalian. Aplikasi ini juga mendukung pustakawan dalam mengelola koleksi dan membantu pimpinan melihat statistik perpustakaan.
 
 ## Identitas Anggota Kelompok
@@ -20,6 +24,12 @@ Elibrary merupakan aplikasi perpustakaan digital yang dikembangkan untuk memperm
 - Antrean pemesanan buku.
 - Akses e-book sesuai hak akses.
 - Laporan dan statistik perpustakaan.
+
+## Peran Pengguna
+
+1.**Anggota**: mencari buku dan memantau peminjaman.
+2.**Pustakawan**: mengelola katalog serta transaksi sirkulasi.
+3.**Pimpinan**: memantau laporan dan statistik perpustakaan.
 
 ## Struktur Proyek
 
@@ -51,7 +61,10 @@ Petunjuk menjalankan aplikasi akan dilengkapi sesuai teknologi dan konfigurasi y
 2. Siapkan dependensi dan perangkat atau emulator.
 3. Jalankan aplikasi sesuai petunjuk framework yang digunakan.
 
-**Catatan:** Perintah di atas merupakan panduan awal. Sesuaikan dengan teknologi yang benar-benar digunakan dan dokumentasi pada masing-masing folder.
+### Arsitektur
+
+1. **Web**: Svelte → REST → Express → Prisma → Database.
+2.**Mobile**: Flutter → REST → Express → Prisma → Database.
 
 ## Dokumentasi
 
