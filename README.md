@@ -64,7 +64,7 @@ Petunjuk menjalankan aplikasi akan dilengkapi sesuai teknologi dan konfigurasi y
 ### Arsitektur
 
 1. **Web**: Svelte → REST → Express → Prisma → Database.
-2.**Mobile**: Flutter → REST → Express → Prisma → Database.
+2. **Mobile**: Flutter → REST → Express → Prisma → Database.
 
 ## Dokumentasi
 
