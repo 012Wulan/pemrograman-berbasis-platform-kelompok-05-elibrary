@@ -60,60 +60,22 @@ Screenshot:
 
 ### b. Kartu Buku
 Kode HTML dan Tailwind CSS:
-<article
-  class="rounded-xl bg-white p-4
-         shadow-[0_4px_12px_rgba(73,53,79,0.12)]
-         transition hover:-translate-y-1
-         hover:shadow-lg"
->
-  <h3 class="text-lg font-semibold text-[#49354F]">
-    Pemrograman Web
-  </h3>
 
-  <p class="mt-2 text-sm text-[#49354F]">
-    Pengarang: Budi Santoso
-  </p>
-
-  <p class="mt-1 text-sm text-[#49354F]">
-    Stok tersedia: 5 buku
-  </p>
-
-  <button
-    class="mt-4 rounded-xl bg-[#F4A6C1]
-           px-4 py-2 text-[#49354F]"
-  >
-    Lihat Detail
-  </button>
-</article>
+![hasil pengujian](screenshot/KODE-CARD.png)
 
 State kartu:
 - Normal: kartu memiliki latar putih dan bayangan ringan.
 - Hover: kartu sedikit terangkat dan bayangannya lebih jelas.
 - Stok habis: informasi stok ditampilkan sebagai habis dan tombol peminjaman dinonaktifkan.
 Pendekatan: kartu buku dibuat sebagai komponen siap pakai karena struktur kartu digunakan berulang kali untuk menampilkan banyak buku.
+Screenshot:
+
+![hasil pengujian](screenshot/TK3-CARD.png)
 
 ### c. Input Form
 Kode HTML dan Tailwind CSS:
-<div class="space-y-2">
-  <label
-    for="judul"
-    class="block text-sm font-medium text-[#49354F]"
-  >
-    Judul Buku
-  </label>
 
-  <input
-    id="judul"
-    type="text"
-    placeholder="Masukkan judul buku"
-    class="w-full rounded-md border border-gray-300
-           bg-white px-3 py-2 text-[#49354F]
-           placeholder:text-gray-400
-           focus:border-[#F4A6C1]
-           focus:outline-none focus:ring-2
-           focus:ring-[#F4A6C1]"
-  />
-</div>
+![hasil pengujian](screenshot/KODE-FORM.png)
 
 State input:
 - Normal: memiliki garis tepi abu-abu.
@@ -121,6 +83,9 @@ State input:
 - Error: garis tepi berubah menjadi merah dan pesan kesalahan ditampilkan.
 - Disabled: input tidak dapat diedit.
 Pendekatan: input dibuat sebagai komponen siap pakai karena digunakan pada formulir login, pencarian, pengelolaan buku, dan pengelolaan anggota.
+Screenshot:
+
+![hasil pengujian](screenshot/TK3-INPUT-FORM.png)
 
 ## 3. Keputusan Component vs Utility
 Kelompok memutuskan menggunakan pendekatan gabungan antara komponen siap pakai dan utility Tailwind CSS.
