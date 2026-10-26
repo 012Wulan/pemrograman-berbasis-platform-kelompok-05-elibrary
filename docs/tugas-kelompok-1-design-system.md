@@ -45,18 +45,7 @@ Warna pink digunakan sebagai identitas visual Elibrary, putih untuk menjaga tamp
 ## 2. Elemen UI
 ### a. Tombol 
 Kode HTML dan Tailwind CSS:
-<button
-  class="rounded-xl bg-[#F4A6C1] px-4 py-2
-         font-medium text-[#49354F]
-         transition hover:bg-[#E88FB0]
-         focus-visible:outline-2
-         focus-visible:outline-offset-2
-         focus-visible:outline-[#49354F]
-         disabled:cursor-not-allowed
-         disabled:opacity-50"
->
-  Pinjam Buku
-</button>
+![hasil pengujian](screenshot/KODE-TOMBOL.png)
 
 State tombol:
 - Normal: tombol berwarna pink pastel.
