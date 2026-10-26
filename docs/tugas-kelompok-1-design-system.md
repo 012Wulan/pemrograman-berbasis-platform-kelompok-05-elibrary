@@ -45,6 +45,7 @@ Warna pink digunakan sebagai identitas visual Elibrary, putih untuk menjaga tamp
 ## 2. Elemen UI
 ### a. Tombol 
 Kode HTML dan Tailwind CSS:
+
 ![hasil pengujian](screenshot/KODE-TOMBOL.png)
 
 State tombol:
@@ -53,6 +54,9 @@ State tombol:
 - Focus: muncul garis penanda saat tombol menerima fokus keyboard.
 - Disabled: tombol tidak dapat digunakan dan tampil lebih transparan.
 Pendekatan: tombol dibuat sebagai komponen siap pakai karena digunakan berulang kali pada halaman katalog, detail buku, dan transaksi peminjaman.
+Screenshot:
+
+![hasil pengujian](screenshot/TK3-TOMBOL.png)
 
 ### b. Kartu Buku
 Kode HTML dan Tailwind CSS:
