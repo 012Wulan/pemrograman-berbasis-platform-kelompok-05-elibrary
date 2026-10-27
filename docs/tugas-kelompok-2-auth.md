@@ -99,6 +99,7 @@ File `.gitignore` juga memuat aturan `.env` dan `**/.env` agar file `.env` diaba
 
 ### c. Bukti file backend/.env tidak dilacak Git
 Pemeriksaan dilakukan menggunakan perintah berikut pada terminal di direktori utama proyek:
+
 ![hasil pengujian](screenshot/BUKTI-FILE-BACKEND.png)
 
 Hasil pemeriksaan: Perintah tidak menampilkan output apa pun. Hasil tersebut menunjukkan bahwa backend/.env tidak tercatat sebagai file yang dilacak Git. Dengan demikian, file konfigurasi yang berisi secret tidak dimasukkan ke dalam daftar file yang dikelola Git.
